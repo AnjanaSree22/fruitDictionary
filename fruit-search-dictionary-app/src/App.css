@@ -1,0 +1,101 @@
+
+
+
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  font-weight: bold;
+
+}
+
+.heading {
+  margin-bottom: 20px; 
+  background-color: rgb(110, 58, 200);
+  color:white;
+  padding: 10px 20px;
+  font-size: 20px;
+  
+}
+
+.searchElement{
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+}
+
+.text-box clicked{
+  color: black;
+}
+.main{
+  height: 100vh;
+  width: 100%;
+}
+.container{
+  position: relative;
+  width: 50%;
+}
+.calc{
+  
+  font-weight: bold;
+  position: absolute;
+  left:70%;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  margin: 30px 50px;
+  color: black;
+  background-color:lightsteelblue ;
+  border: 1px solid rgb(90, 35, 185);
+}
+
+
+.image{
+  margin: 12px 10px;
+  height: 70px;
+  width: 80px;
+}
+  
+.rate{
+  font-weight: lighter;
+}
+.rateBox{
+  margin-top: 28px;
+
+}
+
+.plusButton{
+  margin: 0px;
+  height: 21px;
+  background-color: rgb(110, 58, 200);
+}
+.whole{
+  display: flex;
+  width: 100%;
+  
+}
+.appendDetails{
+  font-weight: lighter;
+  width: 300px;
+  gap: 80px;
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+}
+.cancelBtn{
+  color: white;
+  background-color:rgb(110, 58, 200);
+}
+
+
+
+
+
+
+
